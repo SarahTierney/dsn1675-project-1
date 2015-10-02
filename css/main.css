@@ -49,7 +49,10 @@ p {
 }
 
 footer {
-  background-color: #404c5a;
+}
+
+
+
 }
 
 
@@ -69,10 +72,12 @@ footer {
 
 
 @media only screen and (min-width: 35em) {
-  .image {
+  body {
     margin: 0;
     background-image: url("../images/header.jpg");
-
+    background-size: cover;
+    background-repeat: no-repeat;
+    ba
   }
   .me {
   display: none;
@@ -87,5 +92,23 @@ footer {
     margin-bottom: 0;
     padding-bottom: 5em;
   }
+
+  .icon {
+    width: 10%;
+    padding: 1em;
+    display: none;
+  }
+
+  footer {
+  }
+
+  .image {
+    float:left;
+    width: 30%;
+    position: fixed;
+    background-color: #fff;
+    opacity: 0.5;
+  }
+
 
 }
