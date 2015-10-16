@@ -44,13 +44,13 @@ h1 {
   margin: 21px;
   margin-bottom: 0;
   position: absolute;
-  opacity: 0.85;
+  /*opacity: 0.85;*/
   bottom: 0px;
   text-shadow: 1px 2px 6px #000;
 }
 
 h2 {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.5rem;
   margin-left: 21px;
   line-height: 21px;
@@ -78,6 +78,7 @@ p {
   width: 100%;
   border: 0;
 }
+
 
 footer a:hover {
   opacity: 0.5;
